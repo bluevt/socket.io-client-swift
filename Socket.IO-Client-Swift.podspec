@@ -28,4 +28,5 @@ Pod::Spec.new do |s|
   }
   s.source_files  = "Source/SocketIO/**/*.swift", "Source/SocketIO/*.swift"
   s.dependency "Starscream", "~> 3.1"
+  s.static_framework = true
 end
