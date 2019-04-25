@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.requires_arc = true
   s.source = {
-    :git => "https://github.com/socketio/socket.io-client-swift.git",
-    :tag => 'v15.0.0',
-    :submodules => true
+    :git => "https://github.com/bluevt/socket.io-client-swift.git"
   }
 
   s.swift_version = "5"
